@@ -68,63 +68,63 @@
 
 
 /// e ///
-// colors.pop();
-// document.write("After deleting last color: " + colors + "<br><br>");
+colors.pop();
+document.write("After deleting last color: " + colors + "<br><br>");
 
 
-/// f ///
-// var indexAdd = prompt("At which index you want to add color?");
-// var colorAdd = prompt("Enter color name:");
-// colors.splice(indexAdd, 0, colorAdd);
-// document.write("After adding at index: " + colors + "<br><br>");
+/ f ///
+var indexAdd = prompt("At which index you want to add color?");
+var colorAdd = prompt("Enter color name:");
+colors.splice(indexAdd, 0, colorAdd);
+document.write("After adding at index: " + colors + "<br><br>");
 
 
-// // g ////
-// var indexDel = prompt("At which index you want to delete?");
-// var countDel = prompt("How many colors you want to delete?");
-// colors.splice(indexDel, countDel);
-// document.write("After deleting colors: " + colors);
+// g ////
+var indexDel = prompt("At which index you want to delete?");
+var countDel = prompt("How many colors you want to delete?");
+colors.splice(indexDel, countDel);
+document.write("After deleting colors: " + colors);
 
-//// 10 /// 
-// var scores = [320, 230, 480, 120];
+// 10 /// 
+var scores = [320, 230, 480, 120];
 
-// document.write("Scores of Students: " + scores + "<br>");
+document.write("Scores of Students: " + scores + "<br>");
 
-// scores.sort(function(a, b) {
-//     return a - b;
-// });
+scores.sort(function(a, b) {
+    return a - b;
+});
 
-// document.write("Ordered Scores of Students: " + scores);
+document.write("Ordered Scores of Students: " + scores);
 
-/// 11 ///
-// var cities = ["Karachi", "Lahore", "Islamabad", "Quetta", "Peshawar"];
-// var selectedCities = cities.slice(2, 4);
+/ 11 ///
+var cities = ["Karachi", "Lahore", "Islamabad", "Quetta", "Peshawar"];
+var selectedCities = cities.slice(2, 4);
 
-// document.write("<h3>Cities list:</h3>");
-// document.write(cities + "<br><br>");
+document.write("<h3>Cities list:</h3>");
+document.write(cities + "<br><br>");
 
-// document.write("<h3>Selected cities list:</h3>");
-// document.write(selectedCities);
+document.write("<h3>Selected cities list:</h3>");
+document.write(selectedCities);
 
-/// 12 ///
-// var arr = ["This", "is", "my", "cat"];
+/ 12 ///
+var arr = ["This", "is", "my", "cat"];
 
-// document.write("<h3>Array:</h3>");
-// document.write(arr + "<br><br>");
+document.write("<h3>Array:</h3>");
+document.write(arr + "<br><br>");
 
-// var str = arr.join(" ");
+var str = arr.join(" ");
 
-// document.write("<h3>String:</h3>");
-// document.write(str);
+document.write("<h3>String:</h3>");
+document.write(str);
 
-//// 13 ////
-// var items = [];
-// items.push("Keyboard");
-// items.push("Mouse");
-// items.push("Printer");
-// items.push("Monitor");
-// document.write("Devices:<br>" + items + "<br><br>");
-// document.write("Out:<br>" + items.shift() + "<br>");
-// document.write("Out:<br>" + items.shift() + "<br>");
-// document.write("Out:<br>" + items.shift() + "<br>");
-// document.write("Out:<br>" + items.shift() + "<br>");
+// 13 ////
+var items = [];
+items.push("Keyboard");
+items.push("Mouse");
+items.push("Printer");
+items.push("Monitor");
+document.write("Devices:<br>" + items + "<br><br>");
+document.write("Out:<br>" + items.shift() + "<br>");
+document.write("Out:<br>" + items.shift() + "<br>");
+document.write("Out:<br>" + items.shift() + "<br>");
+document.write("Out:<br>" + items.shift() + "<br>");
